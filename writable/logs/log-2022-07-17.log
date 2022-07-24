@@ -1,0 +1,645 @@
+CRITICAL - 2022-07-17 05:39:32 --> Call to undefined function crsf_field()
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(210): include()
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\Common.php(1089): CodeIgniter\View\View->render('produk/add_prod...', Array, true)
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Produk.php(47): view('produk/add_prod...')
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->add()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#9 {main}
+CRITICAL - 2022-07-17 05:40:31 --> Call to undefined function crsf_field()
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(210): include()
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\Common.php(1089): CodeIgniter\View\View->render('produk/add_prod...', Array, true)
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Produk.php(47): view('produk/add_prod...')
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->add()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#9 {main}
+CRITICAL - 2022-07-17 05:43:13 --> Undefined variable $kategori
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Views\produk\edit_produk.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Kuliah\\Kerja...', 23)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(210): include('D:\\Kuliah\\Kerja...')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\Common.php(1089): CodeIgniter\View\View->render('produk/edit_pro...', Array, true)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Produk.php(64): view('produk/edit_pro...', Array)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->show('save')
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#10 {main}
+CRITICAL - 2022-07-17 05:44:22 --> Undefined variable $kategori
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Views\produk\edit_produk.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Kuliah\\Kerja...', 23)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(210): include('D:\\Kuliah\\Kerja...')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\Common.php(1089): CodeIgniter\View\View->render('produk/edit_pro...', Array, true)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Produk.php(64): view('produk/edit_pro...', Array)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->show('save')
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#10 {main}
+CRITICAL - 2022-07-17 05:52:38 --> Undefined variable $kategori
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Views\produk\edit_produk.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Kuliah\\Kerja...', 23)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(210): include('D:\\Kuliah\\Kerja...')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\Common.php(1089): CodeIgniter\View\View->render('produk/edit_pro...', Array, true)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Produk.php(74): view('produk/edit_pro...', Array)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->show('save')
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#10 {main}
+CRITICAL - 2022-07-17 05:53:39 --> Undefined variable $satuan
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Views\produk\edit_produk.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Kuliah\\Kerja...', 33)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(210): include('D:\\Kuliah\\Kerja...')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\Common.php(1089): CodeIgniter\View\View->render('produk/edit_pro...', Array, true)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Produk.php(74): view('produk/edit_pro...', Array)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->show('save')
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#10 {main}
+CRITICAL - 2022-07-17 06:06:11 --> Undefined array key "alamat"
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Views\produk\list_produk.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\Kuliah\\Kerja...', 55)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(210): include('D:\\Kuliah\\Kerja...')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\Common.php(1089): CodeIgniter\View\View->render('produk/list_pro...', Array, true)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Produk.php(27): view('produk/list_pro...', Array)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->index()
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#10 {main}
+CRITICAL - 2022-07-17 06:08:53 --> Undefined array key "id_supplier"
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Views\produk\list_produk.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\Kuliah\\Kerja...', 63)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(210): include('D:\\Kuliah\\Kerja...')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\Common.php(1089): CodeIgniter\View\View->render('produk/list_pro...', Array, true)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Produk.php(27): view('produk/list_pro...', Array)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->index()
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#10 {main}
+CRITICAL - 2022-07-17 06:09:38 --> Undefined array key "id_produk"
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Views\produk\list_produk.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\Kuliah\\Kerja...', 63)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(210): include('D:\\Kuliah\\Kerja...')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\Common.php(1089): CodeIgniter\View\View->render('produk/list_pro...', Array, true)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Produk.php(27): view('produk/list_pro...', Array)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->index()
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#10 {main}
+CRITICAL - 2022-07-17 08:03:58 --> Undefined variable $harga_pokok_sat
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Views\produk\list_produk.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Kuliah\\Kerja...', 32)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(210): include('D:\\Kuliah\\Kerja...')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\Common.php(1089): CodeIgniter\View\View->render('produk/list_pro...', Array, true)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Produk.php(27): view('produk/list_pro...', Array)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->index()
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#10 {main}
+CRITICAL - 2022-07-17 08:27:35 --> Undefined property: App\Controllers\Produk::$ProdukModel
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Produk.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Kuliah\\Kerja...', 37)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->save()
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#6 {main}
+CRITICAL - 2022-07-17 08:33:39 --> Undefined variable $produModel
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Produk.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Kuliah\\Kerja...', 49)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->save()
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#6 {main}
+CRITICAL - 2022-07-17 08:34:03 --> Undefined variable $produkModel
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Produk.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Kuliah\\Kerja...', 49)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->save()
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#6 {main}
+ERROR - 2022-07-17 08:35:02 --> Column 'kode_produk' cannot be null
+CRITICAL - 2022-07-17 08:35:02 --> Column 'kode_produk' cannot be null
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\app\Models\ProdukModel.php(31): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Produk.php(50): App\Models\ProdukModel->simpan(Array)
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->save()
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#8 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#11 {main}
+ERROR - 2022-07-17 08:36:05 --> Column 'kode_produk' cannot be null
+CRITICAL - 2022-07-17 08:36:05 --> Column 'kode_produk' cannot be null
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\app\Models\ProdukModel.php(31): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Produk.php(50): App\Models\ProdukModel->simpan(Array)
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->save()
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#8 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#11 {main}
+ERROR - 2022-07-17 08:38:29 --> Column 'kode_produk' cannot be null
+CRITICAL - 2022-07-17 08:38:29 --> Column 'kode_produk' cannot be null
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\app\Models\ProdukModel.php(36): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Produk.php(50): App\Models\ProdukModel->simpan(Array)
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->save()
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#8 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#11 {main}
+ERROR - 2022-07-17 08:40:35 --> Column 'kode_produk' cannot be null
+CRITICAL - 2022-07-17 08:40:35 --> Column 'kode_produk' cannot be null
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\app\Models\ProdukModel.php(36): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Produk.php(50): App\Models\ProdukModel->simpan(Array)
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->save()
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#8 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#11 {main}
+ERROR - 2022-07-17 08:40:37 --> Column 'kode_produk' cannot be null
+CRITICAL - 2022-07-17 08:40:37 --> Column 'kode_produk' cannot be null
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\app\Models\ProdukModel.php(36): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Produk.php(50): App\Models\ProdukModel->simpan(Array)
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->save()
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#8 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#11 {main}
+ERROR - 2022-07-17 08:40:46 --> Column 'kode_produk' cannot be null
+CRITICAL - 2022-07-17 08:40:46 --> Column 'kode_produk' cannot be null
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\app\Models\ProdukModel.php(36): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Produk.php(50): App\Models\ProdukModel->simpan(Array)
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->save()
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#8 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#11 {main}
+ERROR - 2022-07-17 08:44:30 --> Column 'kode_produk' cannot be null
+CRITICAL - 2022-07-17 08:44:30 --> Column 'kode_produk' cannot be null
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\app\Models\ProdukModel.php(40): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Produk.php(50): App\Models\ProdukModel->simpan(Array)
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->save()
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#8 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#11 {main}
+CRITICAL - 2022-07-17 08:47:09 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert()
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Produk.php(50): App\Models\ProdukModel->simpan(Array)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->save()
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#6 {main}
+ERROR - 2022-07-17 08:47:22 --> Column 'kode_produk' cannot be null
+CRITICAL - 2022-07-17 08:47:22 --> Column 'kode_produk' cannot be null
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\app\Models\ProdukModel.php(40): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Produk.php(50): App\Models\ProdukModel->simpan(Array)
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->save()
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#8 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#11 {main}
+CRITICAL - 2022-07-17 09:14:18 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in D:\Kuliah\Kerja Praktik\program\ekasir\system\Model.php on line 184
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\Model.php(184): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Produk.php(21): CodeIgniter\BaseModel->findAll()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->index()
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#8 {main}
+CRITICAL - 2022-07-17 09:14:24 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in D:\Kuliah\Kerja Praktik\program\ekasir\system\Model.php on line 184
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\Model.php(184): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Produk.php(21): CodeIgniter\BaseModel->findAll()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->index()
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#8 {main}
+CRITICAL - 2022-07-17 09:16:00 --> Call to undefined method App\Models\ProdukModel::tampildata
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Produk.php(21): CodeIgniter\Model->__call('tampildata', Array)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->index()
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#6 {main}
+CRITICAL - 2022-07-17 09:16:35 --> Undefined variable $produk_list
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Views\produk\list_produk.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Kuliah\\Kerja...', 37)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(210): include('D:\\Kuliah\\Kerja...')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\Common.php(1089): CodeIgniter\View\View->render('produk/list_pro...', Array, true)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Produk.php(24): view('produk/list_pro...', Array)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->index()
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#10 {main}
+CRITICAL - 2022-07-17 09:16:56 --> Undefined variable $produk
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Views\produk\list_produk.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Kuliah\\Kerja...', 37)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(210): include('D:\\Kuliah\\Kerja...')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\Common.php(1089): CodeIgniter\View\View->render('produk/list_pro...', Array, true)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Produk.php(24): view('produk/list_pro...', Array)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->index()
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#10 {main}
+CRITICAL - 2022-07-17 09:17:21 --> Undefined variable $tampil_data
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Views\produk\list_produk.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Kuliah\\Kerja...', 37)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(210): include('D:\\Kuliah\\Kerja...')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\Common.php(1089): CodeIgniter\View\View->render('produk/list_pro...', Array, true)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Produk.php(24): view('produk/list_pro...', Array)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->index()
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#10 {main}
+CRITICAL - 2022-07-17 09:17:34 --> Cannot use object of type stdClass as array
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(210): include()
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\Common.php(1089): CodeIgniter\View\View->render('produk/list_pro...', Array, true)
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Produk.php(24): view('produk/list_pro...', Array)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->index()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#9 {main}
+CRITICAL - 2022-07-17 09:19:19 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in D:\Kuliah\Kerja Praktik\program\ekasir\system\Model.php on line 184
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\Model.php(184): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Produk.php(21): CodeIgniter\BaseModel->findAll()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->index()
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#8 {main}
+CRITICAL - 2022-07-17 09:19:43 --> Trying to access array offset on value of type null
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Views\produk\list_produk.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'D:\\Kuliah\\Kerja...', 41)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(210): include('D:\\Kuliah\\Kerja...')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\Common.php(1089): CodeIgniter\View\View->render('produk/list_pro...', Array, true)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Produk.php(26): view('produk/list_pro...', Array)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->index()
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#10 {main}
+CRITICAL - 2022-07-17 09:20:32 --> Trying to access array offset on value of type null
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Views\produk\list_produk.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'D:\\Kuliah\\Kerja...', 41)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(210): include('D:\\Kuliah\\Kerja...')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\Common.php(1089): CodeIgniter\View\View->render('produk/list_pro...', Array, true)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Produk.php(26): view('produk/list_pro...', Array)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->index()
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#10 {main}
+CRITICAL - 2022-07-17 09:20:58 --> Trying to access array offset on value of type null
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Views\produk\list_produk.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'D:\\Kuliah\\Kerja...', 41)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(210): include('D:\\Kuliah\\Kerja...')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\Common.php(1089): CodeIgniter\View\View->render('produk/list_pro...', Array, true)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Produk.php(26): view('produk/list_pro...', Array)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->index()
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#10 {main}
+CRITICAL - 2022-07-17 09:23:04 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in D:\Kuliah\Kerja Praktik\program\ekasir\system\Model.php on line 184
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\Model.php(184): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Produk.php(20): CodeIgniter\BaseModel->findAll()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->index()
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#8 {main}
+CRITICAL - 2022-07-17 09:26:24 --> Undefined variable $produkModel
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Produk.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Kuliah\\Kerja...', 23)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->index()
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#6 {main}
+CRITICAL - 2022-07-17 09:26:38 --> Call to undefined method App\Models\ProdukModel::getProduk
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Produk.php(23): CodeIgniter\Model->__call('getProduk', Array)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->index()
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#6 {main}
+CRITICAL - 2022-07-17 09:27:23 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in D:\Kuliah\Kerja Praktik\program\ekasir\system\Model.php on line 184
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\Model.php(184): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Produk.php(20): CodeIgniter\BaseModel->findAll()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->index()
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#8 {main}
+CRITICAL - 2022-07-17 09:28:50 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in D:\Kuliah\Kerja Praktik\program\ekasir\system\Model.php on line 184
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\Model.php(184): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Produk.php(21): CodeIgniter\BaseModel->findAll()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->index()
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#8 {main}
+CRITICAL - 2022-07-17 09:30:08 --> Undefined variable $produkModel
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Produk.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Kuliah\\Kerja...', 50)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->save()
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#6 {main}
+ERROR - 2022-07-17 09:30:33 --> Column 'kode_produk' cannot be null
+CRITICAL - 2022-07-17 09:30:33 --> Column 'kode_produk' cannot be null
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\app\Models\ProdukModel.php(37): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Produk.php(50): App\Models\ProdukModel->simpan(Array)
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->save()
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#8 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#11 {main}
+ERROR - 2022-07-17 09:34:57 --> Column 'kode_produk' cannot be null
+CRITICAL - 2022-07-17 09:34:57 --> Column 'kode_produk' cannot be null
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Produk.php(46): CodeIgniter\BaseModel->save(Array)
+#9 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->save()
+#10 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#11 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#14 {main}
+ERROR - 2022-07-17 09:35:32 --> Column 'kode_produk' cannot be null
+CRITICAL - 2022-07-17 09:35:32 --> Column 'kode_produk' cannot be null
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Produk.php(46): CodeIgniter\BaseModel->save(Array)
+#9 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->save()
+#10 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#11 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#14 {main}
+ERROR - 2022-07-17 13:57:29 --> Column 'kode_produk' cannot be null
+CRITICAL - 2022-07-17 13:57:29 --> Column 'kode_produk' cannot be null
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Produk.php(46): CodeIgniter\BaseModel->save(Array)
+#9 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->save()
+#10 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#11 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#14 {main}
+ERROR - 2022-07-17 14:04:50 --> Column 'kode_produk' cannot be null
+CRITICAL - 2022-07-17 14:04:50 --> Column 'kode_produk' cannot be null
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Produk.php(46): CodeIgniter\BaseModel->save(Array)
+#9 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->save()
+#10 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#11 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#14 {main}
+ERROR - 2022-07-17 14:05:18 --> Column 'kode_produk' cannot be null
+CRITICAL - 2022-07-17 14:05:18 --> Column 'kode_produk' cannot be null
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Produk.php(46): CodeIgniter\BaseModel->save(Array)
+#9 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->save()
+#10 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#11 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#14 {main}
+CRITICAL - 2022-07-17 16:54:18 --> Class "Config\Service" not found
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->add()
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#5 {main}
+CRITICAL - 2022-07-17 16:54:44 --> Class "Config\Service" not found
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->add()
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#5 {main}
+CRITICAL - 2022-07-17 16:54:57 --> Undefined variable $validation
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Views\produk\add_produk.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Kuliah\\Kerja...', 14)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(210): include('D:\\Kuliah\\Kerja...')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\Common.php(1089): CodeIgniter\View\View->render('produk/add_prod...', Array, true)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Produk.php(36): view('produk/add_prod...')
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->add()
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#10 {main}
+CRITICAL - 2022-07-17 20:27:47 --> Call to undefined method App\Models\ProdukModel::delte
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Produk.php(67): CodeIgniter\Model->__call('delte', Array)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->delete('SMPPNTN')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#6 {main}
+CRITICAL - 2022-07-17 20:39:21 --> Too few arguments to function App\Controllers\Supplier::delete(), 0 passed in D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#5 {main}
+CRITICAL - 2022-07-17 20:42:29 --> Too few arguments to function App\Controllers\Supplier::delete(), 0 passed in D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#5 {main}
+CRITICAL - 2022-07-17 20:44:36 --> Too few arguments to function App\Controllers\Supplier::delete(), 0 passed in D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#5 {main}
+CRITICAL - 2022-07-17 20:59:34 --> Too few arguments to function App\Controllers\Supplier::delete(), 0 passed in D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#5 {main}
+CRITICAL - 2022-07-17 21:00:16 --> Too few arguments to function App\Controllers\Supplier::delete(), 0 passed in D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#5 {main}
+CRITICAL - 2022-07-17 21:00:57 --> Too few arguments to function App\Controllers\Supplier::delete(), 0 passed in D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#5 {main}
+CRITICAL - 2022-07-17 21:01:11 --> Undefined variable $id_supplier
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Kuliah\\Kerja...', 64)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#6 {main}
+CRITICAL - 2022-07-17 21:01:31 --> Undefined variable $uri
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Kuliah\\Kerja...', 60)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#6 {main}
+CRITICAL - 2022-07-17 21:01:51 --> Call to undefined method App\Models\SupplierModel::hapusdata
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(64): CodeIgniter\Model->__call('hapusdata', Array)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#6 {main}
+CRITICAL - 2022-07-17 21:05:07 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Models\SupplierModel.php(35): CodeIgniter\Database\BaseBuilder->delete('')
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(64): App\Models\SupplierModel->hapusdata('')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#7 {main}

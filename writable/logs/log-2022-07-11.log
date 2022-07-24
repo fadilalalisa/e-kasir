@@ -1,0 +1,214 @@
+CRITICAL - 2022-07-11 10:14:50 --> Undefined variable $kategori
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Views\produk\add_produk.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Kuliah\\Kerja...', 33)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(210): include('D:\\Kuliah\\Kerja...')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\Common.php(1089): CodeIgniter\View\View->render('produk/add_prod...', Array, true)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Produk.php(47): view('produk/add_prod...')
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->add()
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#10 {main}
+CRITICAL - 2022-07-11 10:15:09 --> Invalid file: list_supplier.php
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('list_supplier.p...')
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\Common.php(1089): CodeIgniter\View\View->render('list_supplier', Array, true)
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(18): view('list_supplier', Array)
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->index()
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#8 {main}
+CRITICAL - 2022-07-11 11:03:41 --> Invalid file: list_supplier.php
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('list_supplier.p...')
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\Common.php(1089): CodeIgniter\View\View->render('list_supplier', Array, true)
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(18): view('list_supplier', Array)
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->index()
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#8 {main}
+CRITICAL - 2022-07-11 11:09:28 --> Invalid file: list_supplier.php
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('list_supplier.p...')
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\Common.php(1089): CodeIgniter\View\View->render('list_supplier', Array, true)
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(18): view('list_supplier', Array)
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->index()
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#8 {main}
+CRITICAL - 2022-07-11 11:10:46 --> Invalid file: list_supplier.php
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('list_supplier.p...')
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\Common.php(1089): CodeIgniter\View\View->render('list_supplier', Array, true)
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(18): view('list_supplier', Array)
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->index()
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#8 {main}
+CRITICAL - 2022-07-11 11:11:12 --> Invalid file: list_supplier.php
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('list_supplier.p...')
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\Common.php(1089): CodeIgniter\View\View->render('list_supplier', Array, true)
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(18): view('list_supplier', Array)
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->index()
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#8 {main}
+CRITICAL - 2022-07-11 11:11:17 --> Invalid file: list_supplier.php
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('list_supplier.p...')
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\Common.php(1089): CodeIgniter\View\View->render('list_supplier', Array, true)
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(18): view('list_supplier', Array)
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->index()
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#8 {main}
+CRITICAL - 2022-07-11 11:20:25 --> Cannot use object of type stdClass as array
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(210): include()
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\Common.php(1089): CodeIgniter\View\View->render('supplier/list_s...', Array, true)
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(18): view('supplier/list_s...', Array)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->index()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#9 {main}
+CRITICAL - 2022-07-11 11:24:38 --> Cannot use object of type stdClass as array
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(210): include()
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\Common.php(1089): CodeIgniter\View\View->render('supplier/list_s...', Array, true)
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(18): view('supplier/list_s...', Array)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->index()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#9 {main}
+CRITICAL - 2022-07-11 11:25:20 --> You must set the database table to be used with your query.
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(88): CodeIgniter\Model->__call('saveProduct', Array)
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->save()
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#8 {main}
+CRITICAL - 2022-07-11 13:51:11 --> You must set the database table to be used with your query.
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(89): CodeIgniter\Model->__call('saveProduct', Array)
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->save()
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#8 {main}
+ERROR - 2022-07-11 14:08:27 --> Duplicate entry 'S01' for key 'PRIMARY'
+CRITICAL - 2022-07-11 14:08:27 --> Duplicate entry 'S01' for key 'PRIMARY'
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `su...', 0)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `su...')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `su...')
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `su...', Array, false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\app\Models\SupplierModel.php(30): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(49): App\Models\SupplierModel->simpan(Array)
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->save()
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#11 {main}
+ERROR - 2022-07-11 14:15:59 --> Duplicate entry '' for key 'PRIMARY'
+CRITICAL - 2022-07-11 14:15:59 --> Duplicate entry '' for key 'PRIMARY'
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `su...', 0)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `su...')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `su...')
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `su...', Array, false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\app\Models\SupplierModel.php(30): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(49): App\Models\SupplierModel->simpan(Array)
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->save()
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#11 {main}
+CRITICAL - 2022-07-11 14:57:37 --> Request URI segment is out of range: 4
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(4)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(59): CodeIgniter\HTTP\URI->getSegment(4)
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#7 {main}
+CRITICAL - 2022-07-11 15:52:44 --> Request URI segment is out of range: 4
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(4)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(59): CodeIgniter\HTTP\URI->getSegment(4)
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#7 {main}
+CRITICAL - 2022-07-11 15:58:28 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Models\SupplierModel.php(35): CodeIgniter\Database\BaseBuilder->delete('')
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(63): App\Models\SupplierModel->hapusdata('')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#7 {main}
+CRITICAL - 2022-07-11 17:42:56 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Models\SupplierModel.php(35): CodeIgniter\Database\BaseBuilder->delete('')
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(63): App\Models\SupplierModel->hapusdata('')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#7 {main}
+CRITICAL - 2022-07-11 21:20:20 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Models\SupplierModel.php(35): CodeIgniter\Database\BaseBuilder->delete('')
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(63): App\Models\SupplierModel->hapusdata('')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#7 {main}
+CRITICAL - 2022-07-11 21:30:04 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Models\SupplierModel.php(35): CodeIgniter\Database\BaseBuilder->delete('')
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(63): App\Models\SupplierModel->hapusdata('')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#7 {main}
+CRITICAL - 2022-07-11 21:30:27 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Models\SupplierModel.php(35): CodeIgniter\Database\BaseBuilder->delete('')
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(63): App\Models\SupplierModel->hapusdata('')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#7 {main}
+CRITICAL - 2022-07-11 21:30:36 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Models\SupplierModel.php(35): CodeIgniter\Database\BaseBuilder->delete('')
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(63): App\Models\SupplierModel->hapusdata('')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#7 {main}

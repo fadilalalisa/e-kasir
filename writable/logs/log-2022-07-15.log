@@ -1,0 +1,12 @@
+CRITICAL - 2022-07-15 14:03:25 --> Undefined variable $kategori
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Views\produk\add_produk.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Kuliah\\Kerja...', 33)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(210): include('D:\\Kuliah\\Kerja...')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\Common.php(1089): CodeIgniter\View\View->render('produk/add_prod...', Array, true)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Produk.php(47): view('produk/add_prod...')
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->add()
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#10 {main}

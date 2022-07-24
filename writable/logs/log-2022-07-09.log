@@ -1,0 +1,43 @@
+CRITICAL - 2022-07-09 20:36:55 --> Undefined variable $kategori
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Views\produk\add_produk.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Kuliah\\Kerja...', 33)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(210): include('D:\\Kuliah\\Kerja...')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\Common.php(1089): CodeIgniter\View\View->render('produk/add_prod...', Array, true)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Produk.php(47): view('produk/add_prod...')
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Produk->add()
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#10 {main}
+CRITICAL - 2022-07-09 20:37:39 --> Call to undefined method App\Models\SupplierModel::saveProduct
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(42): CodeIgniter\Model->__call('saveProduct', Array)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->save()
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#6 {main}
+CRITICAL - 2022-07-09 21:57:22 --> Call to undefined method App\Models\SupplierModel::saveProduct
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(58): CodeIgniter\Model->__call('saveProduct', Array)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->save()
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#6 {main}
+CRITICAL - 2022-07-09 22:21:16 --> Undefined variable $id_supplier
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Kuliah\\Kerja...', 31)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->show('add')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#6 {main}
+CRITICAL - 2022-07-09 22:22:03 --> Class "App\Controllers\PageNotFoundException" not found
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->show('add')
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#5 {main}

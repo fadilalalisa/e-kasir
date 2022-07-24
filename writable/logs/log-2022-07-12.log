@@ -1,0 +1,601 @@
+CRITICAL - 2022-07-12 04:07:35 --> Request URI segment is out of range: 4
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(4)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(59): CodeIgniter\HTTP\URI->getSegment(4)
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#7 {main}
+CRITICAL - 2022-07-12 04:09:13 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Models\SupplierModel.php(35): CodeIgniter\Database\BaseBuilder->delete('')
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(63): App\Models\SupplierModel->hapusdata('')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#7 {main}
+CRITICAL - 2022-07-12 04:10:33 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Models\SupplierModel.php(35): CodeIgniter\Database\BaseBuilder->delete('')
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(63): App\Models\SupplierModel->hapusdata('')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#7 {main}
+CRITICAL - 2022-07-12 04:10:35 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Models\SupplierModel.php(35): CodeIgniter\Database\BaseBuilder->delete('')
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(63): App\Models\SupplierModel->hapusdata('')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#7 {main}
+CRITICAL - 2022-07-12 04:10:41 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Models\SupplierModel.php(35): CodeIgniter\Database\BaseBuilder->delete('')
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(63): App\Models\SupplierModel->hapusdata('')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#7 {main}
+CRITICAL - 2022-07-12 04:22:04 --> Undefined property: App\Controllers\Supplier::$supplier
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Kuliah\\Kerja...', 58)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#6 {main}
+CRITICAL - 2022-07-12 04:22:12 --> Undefined property: App\Controllers\Supplier::$supplier
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Kuliah\\Kerja...', 58)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#6 {main}
+CRITICAL - 2022-07-12 04:23:09 --> Undefined property: App\Controllers\Supplier::$supplier
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Kuliah\\Kerja...', 59)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#6 {main}
+CRITICAL - 2022-07-12 04:23:12 --> Undefined property: App\Controllers\Supplier::$supplier
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Kuliah\\Kerja...', 59)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#6 {main}
+CRITICAL - 2022-07-12 04:23:17 --> Undefined property: App\Controllers\Supplier::$supplier
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Kuliah\\Kerja...', 59)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#6 {main}
+CRITICAL - 2022-07-12 04:23:53 --> Undefined property: App\Controllers\Supplier::$supplier
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Kuliah\\Kerja...', 59)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#6 {main}
+CRITICAL - 2022-07-12 04:24:02 --> Undefined property: App\Controllers\Supplier::$supplier
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Kuliah\\Kerja...', 59)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#6 {main}
+CRITICAL - 2022-07-12 08:16:54 --> Undefined property: App\Controllers\Supplier::$supplier
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Kuliah\\Kerja...', 48)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#6 {main}
+CRITICAL - 2022-07-12 08:22:04 --> Undefined variable $id_supplier
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Kuliah\\Kerja...', 48)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#6 {main}
+CRITICAL - 2022-07-12 08:22:25 --> Too few arguments to function App\Controllers\Supplier::delete(), 0 passed in D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#5 {main}
+CRITICAL - 2022-07-12 08:23:24 --> Too few arguments to function App\Controllers\Supplier::delete(), 0 passed in D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#5 {main}
+CRITICAL - 2022-07-12 08:24:59 --> Too few arguments to function App\Controllers\Supplier::delete(), 0 passed in D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#5 {main}
+CRITICAL - 2022-07-12 08:25:18 --> Too few arguments to function App\Controllers\Supplier::delete(), 0 passed in D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#5 {main}
+CRITICAL - 2022-07-12 08:25:24 --> Too few arguments to function App\Controllers\Supplier::delete(), 0 passed in D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#5 {main}
+CRITICAL - 2022-07-12 08:35:08 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-12 08:35:10 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-12 08:35:15 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-12 08:35:20 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-12 08:35:53 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-12 08:36:07 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-12 08:36:09 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-12 08:36:13 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-12 08:37:16 --> Call to undefined method App\Models\SupplierModel::tampildata
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(15): CodeIgniter\Model->__call('tampildata', Array)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->index()
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#6 {main}
+CRITICAL - 2022-07-12 08:37:33 --> Undefined variable $supplier
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Views\supplier\list_supplier.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Kuliah\\Kerja...', 37)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(210): include('D:\\Kuliah\\Kerja...')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\Common.php(1089): CodeIgniter\View\View->render('supplier/list_s...', Array, true)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(18): view('supplier/list_s...', Array)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->index()
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#10 {main}
+CRITICAL - 2022-07-12 08:37:34 --> Undefined variable $supplier
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Views\supplier\list_supplier.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Kuliah\\Kerja...', 37)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(210): include('D:\\Kuliah\\Kerja...')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\Common.php(1089): CodeIgniter\View\View->render('supplier/list_s...', Array, true)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(18): view('supplier/list_s...', Array)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->index()
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#10 {main}
+CRITICAL - 2022-07-12 08:39:36 --> Too few arguments to function App\Controllers\Supplier::delete(), 0 passed in D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#5 {main}
+CRITICAL - 2022-07-12 08:41:03 --> Too few arguments to function App\Controllers\Supplier::delete(), 0 passed in D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#5 {main}
+CRITICAL - 2022-07-12 08:41:04 --> Too few arguments to function App\Controllers\Supplier::delete(), 0 passed in D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#5 {main}
+CRITICAL - 2022-07-12 08:43:05 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Models\SupplierModel.php(35): CodeIgniter\Database\BaseBuilder->delete('')
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(52): App\Models\SupplierModel->hapusdata('')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#7 {main}
+CRITICAL - 2022-07-12 08:52:37 --> Too few arguments to function App\Controllers\Supplier::delete(), 0 passed in D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#5 {main}
+CRITICAL - 2022-07-12 08:52:49 --> Undefined variable $id_supplier
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Kuliah\\Kerja...', 47)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#6 {main}
+CRITICAL - 2022-07-12 08:53:20 --> Undefined variable $id_supplier
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Kuliah\\Kerja...', 47)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#6 {main}
+CRITICAL - 2022-07-12 11:41:28 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Models\SupplierModel.php(35): CodeIgniter\Database\BaseBuilder->delete('')
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(53): App\Models\SupplierModel->hapusdata('')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#7 {main}
+CRITICAL - 2022-07-12 11:52:12 --> Too few arguments to function App\Models\SupplierModel::hapusdata(), 1 passed in D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php on line 53 and exactly 2 expected
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(53): App\Models\SupplierModel->hapusdata('')
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#6 {main}
+CRITICAL - 2022-07-12 11:53:53 --> Undefined variable $id_supplier
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Kuliah\\Kerja...', 61)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#6 {main}
+CRITICAL - 2022-07-12 11:54:50 --> Too few arguments to function App\Controllers\Supplier::delete(), 0 passed in D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#5 {main}
+CRITICAL - 2022-07-12 12:05:20 --> Too few arguments to function App\Controllers\Supplier::delete(), 0 passed in D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#5 {main}
+CRITICAL - 2022-07-12 12:06:50 --> Too few arguments to function App\Controllers\Supplier::delete(), 0 passed in D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#5 {main}
+CRITICAL - 2022-07-12 12:17:05 --> Too few arguments to function App\Controllers\Supplier::delete(), 0 passed in D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#5 {main}
+CRITICAL - 2022-07-12 13:19:27 --> Too few arguments to function App\Controllers\Supplier::delete(), 0 passed in D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#5 {main}
+CRITICAL - 2022-07-12 13:19:53 --> Undefined variable $id_supplier
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Kuliah\\Kerja...', 47)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#6 {main}
+CRITICAL - 2022-07-12 13:20:07 --> Undefined variable $table
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Models\SupplierModel.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Kuliah\\Kerja...', 35)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(56): App\Models\SupplierModel->hapusdata('')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#7 {main}
+CRITICAL - 2022-07-12 13:20:43 --> Undefined variable $where
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Models\SupplierModel.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Kuliah\\Kerja...', 35)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(56): App\Models\SupplierModel->hapusdata('')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#7 {main}
+CRITICAL - 2022-07-12 13:21:28 --> Undefined variable $where
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Models\SupplierModel.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Kuliah\\Kerja...', 35)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(56): App\Models\SupplierModel->hapusdata('')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#7 {main}
+ERROR - 2022-07-12 13:21:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL' at line 2
+CRITICAL - 2022-07-12 13:21:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL' at line 2
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `su...', 0)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `su...')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `su...')
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `su...', Array, false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\app\Models\SupplierModel.php(35): CodeIgniter\Database\BaseBuilder->delete('')
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(56): App\Models\SupplierModel->hapusdata('')
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#11 {main}
+CRITICAL - 2022-07-12 13:28:35 --> Undefined variable $table
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Models\SupplierModel.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Kuliah\\Kerja...', 35)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(56): App\Models\SupplierModel->hapusdata('')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#7 {main}
+CRITICAL - 2022-07-12 13:31:55 --> Undefined variable $where
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Models\SupplierModel.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Kuliah\\Kerja...', 35)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(56): App\Models\SupplierModel->hapusdata('')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#7 {main}
+CRITICAL - 2022-07-12 13:54:09 --> Request URI segment is out of range: 3
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(3)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(52): CodeIgniter\HTTP\URI->getSegment(3)
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#7 {main}
+CRITICAL - 2022-07-12 13:54:55 --> Request URI segment is out of range: 3
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(3)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(52): CodeIgniter\HTTP\URI->getSegment(3)
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#7 {main}
+CRITICAL - 2022-07-12 14:30:29 --> Undefined variable $supplier
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Models\SupplierModel.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Kuliah\\Kerja...', 36)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(56): App\Models\SupplierModel->hapusdata('')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#7 {main}
+CRITICAL - 2022-07-12 14:36:26 --> Undefined variable $where
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Models\SupplierModel.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Kuliah\\Kerja...', 36)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(56): App\Models\SupplierModel->hapusdata('')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#7 {main}
+CRITICAL - 2022-07-12 14:45:54 --> Undefined property: App\Controllers\Supplier::$SupplierModel
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Kuliah\\Kerja...', 47)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#6 {main}
+CRITICAL - 2022-07-12 15:20:58 --> Undefined property: App\Controllers\Supplier::$SupplierModel
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Kuliah\\Kerja...', 47)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#6 {main}
+CRITICAL - 2022-07-12 15:21:37 --> Too few arguments to function App\Models\SupplierModel::hapusdata(), 1 passed in D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php on line 58 and exactly 2 expected
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(58): App\Models\SupplierModel->hapusdata('')
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#6 {main}
+CRITICAL - 2022-07-12 15:22:54 --> Too few arguments to function App\Models\SupplierModel::hapusdata(), 1 passed in D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php on line 58 and exactly 2 expected
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(58): App\Models\SupplierModel->hapusdata('')
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#6 {main}
+CRITICAL - 2022-07-12 15:23:14 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(58): App\Models\SupplierModel->hapusdata('')
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#6 {main}
+ERROR - 2022-07-12 17:05:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 'id_supplier'' at line 2
+CRITICAL - 2022-07-12 17:05:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 'id_supplier'' at line 2
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `su...', 0)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `su...')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `su...')
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `su...', Array, false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\app\Models\SupplierModel.php(36): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(58): App\Models\SupplierModel->hapusdata('')
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#11 {main}
+ERROR - 2022-07-12 17:07:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 'id_supplier'' at line 2
+CRITICAL - 2022-07-12 17:07:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 'id_supplier'' at line 2
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `su...', 0)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `su...')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `su...')
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `su...', Array, false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\app\Models\SupplierModel.php(35): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(58): App\Models\SupplierModel->hapusdata('')
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#11 {main}
+ERROR - 2022-07-12 17:08:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 'id_supplier'' at line 2
+CRITICAL - 2022-07-12 17:08:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 'id_supplier'' at line 2
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `su...', 0)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `su...')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `su...')
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `su...', Array, false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\app\Models\SupplierModel.php(35): CodeIgniter\Database\BaseBuilder->delete('')
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(58): App\Models\SupplierModel->hapusdata('')
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#11 {main}
+ERROR - 2022-07-12 17:09:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 'id_supplier'' at line 2
+CRITICAL - 2022-07-12 17:09:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 'id_supplier'' at line 2
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `su...', 0)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `su...')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `su...')
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `su...', Array, false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\app\Models\SupplierModel.php(35): CodeIgniter\Database\BaseBuilder->delete('')
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(58): App\Models\SupplierModel->hapusdata('')
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#11 {main}
+CRITICAL - 2022-07-12 17:13:51 --> Too few arguments to function App\Models\SupplierModel::hapusdata(), 1 passed in D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php on line 58 and exactly 2 expected
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(58): App\Models\SupplierModel->hapusdata('')
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#6 {main}
+CRITICAL - 2022-07-12 17:14:54 --> Too few arguments to function App\Models\SupplierModel::hapusdata(), 1 passed in D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php on line 58 and exactly 2 expected
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(58): App\Models\SupplierModel->hapusdata('')
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#6 {main}
+CRITICAL - 2022-07-12 17:15:19 --> Too few arguments to function App\Controllers\Supplier::delete(), 0 passed in D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#5 {main}
+ERROR - 2022-07-12 17:15:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 'id_supplier'' at line 2
+CRITICAL - 2022-07-12 17:15:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 'id_supplier'' at line 2
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `su...', 0)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `su...')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `su...')
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `su...', Array, false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\app\Models\SupplierModel.php(36): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(58): App\Models\SupplierModel->hapusdata('')
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#11 {main}
+ERROR - 2022-07-12 17:15:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 'id_supplier'' at line 2
+CRITICAL - 2022-07-12 17:15:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 'id_supplier'' at line 2
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `su...', 0)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `su...')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `su...')
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `su...', Array, false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\app\Models\SupplierModel.php(36): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(58): App\Models\SupplierModel->hapusdata('')
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#11 {main}
+ERROR - 2022-07-12 17:15:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 'id_supplier'' at line 2
+CRITICAL - 2022-07-12 17:15:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 'id_supplier'' at line 2
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `su...', 0)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `su...')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `su...')
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `su...', Array, false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\app\Models\SupplierModel.php(36): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(58): App\Models\SupplierModel->hapusdata('')
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#11 {main}
+ERROR - 2022-07-12 17:16:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 'id_supplier'
+AND 0 = ''' at line 2
+CRITICAL - 2022-07-12 17:16:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 'id_supplier'
+AND 0 = ''' at line 2
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `su...', 0)
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `su...')
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `su...')
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `su...', Array, false)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\app\Models\SupplierModel.php(36): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Supplier.php(58): App\Models\SupplierModel->hapusdata('')
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Supplier->delete()
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#11 {main}

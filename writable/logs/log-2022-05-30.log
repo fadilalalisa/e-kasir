@@ -1,0 +1,133 @@
+ERROR - 2022-05-30 09:15:25 --> Invalid default value for 'updated_at'
+ERROR - 2022-05-30 09:17:13 --> Invalid default value for 'updated_at'
+ERROR - 2022-05-30 10:05:20 --> Can't create table `db_ekasir`.`pembelian` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2022-05-30 10:06:01 --> Table 'supplier' already exists
+ERROR - 2022-05-30 10:07:00 --> Table 'supplier' already exists
+ERROR - 2022-05-30 10:07:48 --> Can't create table `db_ekasir`.`pembelian` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2022-05-30 10:35:19 --> Can't DROP FOREIGN KEY `id_supplier`; check that it exists
+ERROR - 2022-05-30 10:36:34 --> Can't DROP FOREIGN KEY `id_supplier`; check that it exists
+ERROR - 2022-05-30 10:38:55 --> Can't DROP FOREIGN KEY `produk_id_user_foreign`; check that it exists
+ERROR - 2022-05-30 10:39:39 --> Can't DROP FOREIGN KEY `produk_id_supplier_foreign`; check that it exists
+ERROR - 2022-05-30 10:40:45 --> Can't DROP FOREIGN KEY `detail_pembelian_id_user_foreign`; check that it exists
+CRITICAL - 2022-05-30 19:42:28 --> Undefined array key "role"
+#0 D:\Projects\ekasir-lisa\app\Helpers\auth_helper.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\Projects\\eka...', 4)
+#1 D:\Projects\ekasir-lisa\app\Views\templates\sidebar.php(28): auth('role')
+#2 D:\Projects\ekasir-lisa\system\View\View.php(210): include('D:\\Projects\\eka...')
+#3 D:\Projects\ekasir-lisa\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 D:\Projects\ekasir-lisa\system\View\View.php(424): CodeIgniter\View\View->render('templates/sideb...', NULL, true)
+#5 D:\Projects\ekasir-lisa\app\Views\templates\layout.php(19): CodeIgniter\View\View->include('templates/sideb...')
+#6 D:\Projects\ekasir-lisa\system\View\View.php(210): include('D:\\Projects\\eka...')
+#7 D:\Projects\ekasir-lisa\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 D:\Projects\ekasir-lisa\system\View\View.php(226): CodeIgniter\View\View->render('templates/layou...', Array, true)
+#9 D:\Projects\ekasir-lisa\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#10 D:\Projects\ekasir-lisa\app\Controllers\Dashboard.php(9): view('dashboard')
+#11 D:\Projects\ekasir-lisa\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#12 D:\Projects\ekasir-lisa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#13 D:\Projects\ekasir-lisa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 D:\Projects\ekasir-lisa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#15 D:\Projects\ekasir-lisa\system\Commands\Server\rewrite.php(43): require_once('D:\\Projects\\eka...')
+#16 {main}
+ERROR - 2022-05-30 19:45:48 --> Table 'db_ekasir.users' doesn't exist
+ERROR - 2022-05-30 19:46:20 --> Unknown column 'role' in 'field list'
+CRITICAL - 2022-05-30 19:47:44 --> Undefined array key "role"
+#0 D:\Projects\ekasir-lisa\app\Helpers\auth_helper.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\Projects\\eka...', 4)
+#1 D:\Projects\ekasir-lisa\app\Views\templates\sidebar.php(28): auth('role')
+#2 D:\Projects\ekasir-lisa\system\View\View.php(210): include('D:\\Projects\\eka...')
+#3 D:\Projects\ekasir-lisa\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 D:\Projects\ekasir-lisa\system\View\View.php(424): CodeIgniter\View\View->render('templates/sideb...', NULL, true)
+#5 D:\Projects\ekasir-lisa\app\Views\templates\layout.php(19): CodeIgniter\View\View->include('templates/sideb...')
+#6 D:\Projects\ekasir-lisa\system\View\View.php(210): include('D:\\Projects\\eka...')
+#7 D:\Projects\ekasir-lisa\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 D:\Projects\ekasir-lisa\system\View\View.php(226): CodeIgniter\View\View->render('templates/layou...', Array, true)
+#9 D:\Projects\ekasir-lisa\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#10 D:\Projects\ekasir-lisa\app\Controllers\Dashboard.php(9): view('dashboard')
+#11 D:\Projects\ekasir-lisa\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#12 D:\Projects\ekasir-lisa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#13 D:\Projects\ekasir-lisa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 D:\Projects\ekasir-lisa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#15 D:\Projects\ekasir-lisa\system\Commands\Server\rewrite.php(43): require_once('D:\\Projects\\eka...')
+#16 {main}
+CRITICAL - 2022-05-30 19:47:56 --> Undefined array key "role"
+#0 D:\Projects\ekasir-lisa\app\Helpers\auth_helper.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\Projects\\eka...', 4)
+#1 D:\Projects\ekasir-lisa\app\Views\templates\sidebar.php(28): auth('role')
+#2 D:\Projects\ekasir-lisa\system\View\View.php(210): include('D:\\Projects\\eka...')
+#3 D:\Projects\ekasir-lisa\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 D:\Projects\ekasir-lisa\system\View\View.php(424): CodeIgniter\View\View->render('templates/sideb...', NULL, true)
+#5 D:\Projects\ekasir-lisa\app\Views\templates\layout.php(19): CodeIgniter\View\View->include('templates/sideb...')
+#6 D:\Projects\ekasir-lisa\system\View\View.php(210): include('D:\\Projects\\eka...')
+#7 D:\Projects\ekasir-lisa\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 D:\Projects\ekasir-lisa\system\View\View.php(226): CodeIgniter\View\View->render('templates/layou...', Array, true)
+#9 D:\Projects\ekasir-lisa\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#10 D:\Projects\ekasir-lisa\app\Controllers\Dashboard.php(9): view('dashboard')
+#11 D:\Projects\ekasir-lisa\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#12 D:\Projects\ekasir-lisa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#13 D:\Projects\ekasir-lisa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 D:\Projects\ekasir-lisa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#15 D:\Projects\ekasir-lisa\system\Commands\Server\rewrite.php(43): require_once('D:\\Projects\\eka...')
+#16 {main}
+CRITICAL - 2022-05-30 19:50:49 --> Undefined array key "role"
+#0 D:\Projects\ekasir-lisa\app\Helpers\auth_helper.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\Projects\\eka...', 4)
+#1 D:\Projects\ekasir-lisa\app\Views\templates\topbar.php(26): auth('role')
+#2 D:\Projects\ekasir-lisa\system\View\View.php(210): include('D:\\Projects\\eka...')
+#3 D:\Projects\ekasir-lisa\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 D:\Projects\ekasir-lisa\system\View\View.php(424): CodeIgniter\View\View->render('templates/topba...', NULL, true)
+#5 D:\Projects\ekasir-lisa\app\Views\templates\layout.php(23): CodeIgniter\View\View->include('templates/topba...')
+#6 D:\Projects\ekasir-lisa\system\View\View.php(210): include('D:\\Projects\\eka...')
+#7 D:\Projects\ekasir-lisa\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 D:\Projects\ekasir-lisa\system\View\View.php(226): CodeIgniter\View\View->render('templates/layou...', Array, true)
+#9 D:\Projects\ekasir-lisa\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#10 D:\Projects\ekasir-lisa\app\Controllers\Dashboard.php(9): view('dashboard')
+#11 D:\Projects\ekasir-lisa\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#12 D:\Projects\ekasir-lisa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#13 D:\Projects\ekasir-lisa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 D:\Projects\ekasir-lisa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#15 D:\Projects\ekasir-lisa\system\Commands\Server\rewrite.php(43): require_once('D:\\Projects\\eka...')
+#16 {main}
+CRITICAL - 2022-05-30 19:56:28 --> Undefined array key ""
+#0 D:\Projects\ekasir-lisa\app\Views\produk\list_produk.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\Projects\\eka...', 28)
+#1 D:\Projects\ekasir-lisa\system\View\View.php(210): include('D:\\Projects\\eka...')
+#2 D:\Projects\ekasir-lisa\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Projects\ekasir-lisa\system\Common.php(1089): CodeIgniter\View\View->render('produk/list_pro...', Array, true)
+#4 D:\Projects\ekasir-lisa\app\Controllers\Produk.php(23): view('produk/list_pro...', Array)
+#5 D:\Projects\ekasir-lisa\system\CodeIgniter.php(832): App\Controllers\Produk->index()
+#6 D:\Projects\ekasir-lisa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Projects\ekasir-lisa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Projects\ekasir-lisa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Projects\ekasir-lisa\system\Commands\Server\rewrite.php(43): require_once('D:\\Projects\\eka...')
+#10 {main}
+CRITICAL - 2022-05-30 19:58:05 --> Undefined array key "harga_beli"
+#0 D:\Projects\ekasir-lisa\app\Views\produk\list_produk.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\Projects\\eka...', 29)
+#1 D:\Projects\ekasir-lisa\system\View\View.php(210): include('D:\\Projects\\eka...')
+#2 D:\Projects\ekasir-lisa\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Projects\ekasir-lisa\system\Common.php(1089): CodeIgniter\View\View->render('produk/list_pro...', Array, true)
+#4 D:\Projects\ekasir-lisa\app\Controllers\Produk.php(23): view('produk/list_pro...', Array)
+#5 D:\Projects\ekasir-lisa\system\CodeIgniter.php(832): App\Controllers\Produk->index()
+#6 D:\Projects\ekasir-lisa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Projects\ekasir-lisa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Projects\ekasir-lisa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Projects\ekasir-lisa\system\Commands\Server\rewrite.php(43): require_once('D:\\Projects\\eka...')
+#10 {main}
+CRITICAL - 2022-05-30 21:55:12 --> date_format(): Argument #1 ($object) must be of type DateTimeInterface, string given
+#0 D:\Projects\ekasir-lisa\app\Views\produk\edit_produk.php(15): date_format('2022-05-30 07:5...', 'd-m-Y')
+#1 D:\Projects\ekasir-lisa\system\View\View.php(210): include('D:\\Projects\\eka...')
+#2 D:\Projects\ekasir-lisa\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Projects\ekasir-lisa\system\Common.php(1089): CodeIgniter\View\View->render('produk/edit_pro...', Array, true)
+#4 D:\Projects\ekasir-lisa\app\Controllers\Produk.php(46): view('produk/edit_pro...', Array)
+#5 D:\Projects\ekasir-lisa\system\CodeIgniter.php(832): App\Controllers\Produk->show('18')
+#6 D:\Projects\ekasir-lisa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Projects\ekasir-lisa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Projects\ekasir-lisa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Projects\ekasir-lisa\system\Commands\Server\rewrite.php(43): require_once('D:\\Projects\\eka...')
+#10 {main}
+CRITICAL - 2022-05-30 22:18:29 --> Undefined array key "pcs"
+#0 D:\Projects\ekasir-lisa\app\Views\produk\edit_produk.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\Projects\\eka...', 50)
+#1 D:\Projects\ekasir-lisa\system\View\View.php(210): include('D:\\Projects\\eka...')
+#2 D:\Projects\ekasir-lisa\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Projects\ekasir-lisa\system\Common.php(1089): CodeIgniter\View\View->render('produk/edit_pro...', Array, true)
+#4 D:\Projects\ekasir-lisa\app\Controllers\Produk.php(46): view('produk/edit_pro...', Array)
+#5 D:\Projects\ekasir-lisa\system\CodeIgniter.php(832): App\Controllers\Produk->show('18')
+#6 D:\Projects\ekasir-lisa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Projects\ekasir-lisa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Projects\ekasir-lisa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Projects\ekasir-lisa\system\Commands\Server\rewrite.php(43): require_once('D:\\Projects\\eka...')
+#10 {main}

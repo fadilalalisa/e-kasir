@@ -1,0 +1,7 @@
+CRITICAL - 2022-06-21 15:09:37 --> Class "App\Controllers\ProdukModel" not found
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(809): App\Controllers\Supplier->__construct()
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#5 {main}

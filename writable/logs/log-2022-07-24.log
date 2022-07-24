@@ -1,0 +1,14 @@
+ERROR - 2022-07-24 06:25:56 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-07-24 06:25:56 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Kuliah\Kerja Praktik\program\ekasir\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Kuliah\Kerja Praktik\program\ekasir\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Kuliah\Kerja Praktik\program\ekasir\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#4 D:\Kuliah\Kerja Praktik\program\ekasir\app\Controllers\Authentikasi.php(59): CodeIgniter\BaseModel->find()
+#5 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(832): App\Controllers\Authentikasi->do_login()
+#6 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentikasi))
+#7 D:\Kuliah\Kerja Praktik\program\ekasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Kuliah\Kerja Praktik\program\ekasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Kuliah\Kerja Praktik\program\ekasir\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Kerja...')
+#10 {main}
